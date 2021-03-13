@@ -1,0 +1,25 @@
+.board{
+    display: flex;
+    flex-direction: column;
+    border:solid 5px;
+    border-color: darkgoldenrod;
+    height: 700px;
+    width:700px;
+    margin:0px
+}
+.boardrow{
+    display: flex;
+    margin: 0px;
+}
+.white_cell{
+
+    background-color: white;
+    height: 70px;
+    width: 70px;
+}
+.black_cell{
+
+    background-color: black;
+    height: 70px;
+    width: 70px;
+}
